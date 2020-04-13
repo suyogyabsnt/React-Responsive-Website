@@ -1,0 +1,25 @@
+.body{
+    background-color: rgb(0, 18, 0, 0.3);
+    background-size: cover;
+   
+}
+.container{
+    padding:10px;
+}
+
+p{
+    color: #000;
+}
+
+
+.line{
+    
+    margin:20px auto;
+    height: 4px;
+    width: 80%;
+    background-color: #333;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px 1px;
+
+    
+}

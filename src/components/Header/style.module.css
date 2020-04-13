@@ -1,0 +1,135 @@
+
+.header{
+    background-color: #000;
+   width: 100%;
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: space-between; 
+    
+}
+.logo{
+    
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+   margin-right: 25%;
+    transition:color 0.3s;
+    
+   
+}
+.logo:hover{
+    color: rgb(105, 89, 250);
+}
+.li{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    transition:color 0.3s;
+    transition:font-size 0.3s;
+    
+}
+.li:hover,
+.li:active{
+    color: rgb(105, 89, 250);
+    font-size: 15px;
+    
+}
+
+.body{
+    position: relative;
+    /*lasjdflsjdf*/
+
+  
+    
+}
+
+.menuDrawer{
+    display: flex;
+    background-color: #ff4;
+    margin:0;
+    height:100vh;
+    width: 70%;
+    max-width: 400px;
+    flex-direction: column;
+   float: left;
+   box-shadow: 2px 0px 5px rgb(255, 255, 255, 0.5);
+   position: fixed;
+  z-index: 200;
+  
+
+}
+.menuDrawerli{
+    text-decoration: none;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #000;
+    font-size: 18px;
+    border-bottom: solid rgb(105, 89, 250, 0.3);
+    transition:color 0.3s;
+ 
+}
+.menuDrawerli:hover,
+.menuDrawerli:active{
+    color: rgb(105, 89, 250);
+}
+.backDrop{
+    position: fixed;
+   float: left;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255,255,255,0.3);
+ 
+}
+
+/*Toggle button*/
+
+.toggleButton{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    height:24px;
+    width: 30px;
+    background: transparent;
+    border:none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+  
+   
+}
+
+.toggleButton{
+    outline: none;
+}
+
+.toggleButtonLine{
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+}
+@media only screen and (max-width: 600px) {
+   
+.li{
+        display: flex;
+        padding:10px;
+        font-size: 15px;
+        display: none;
+        
+}
+.logo{
+    font-size: 12px;
+    margin:0 35%;
+    
+}
+.toggleButton{
+    display: flex;
+}
+
+}
